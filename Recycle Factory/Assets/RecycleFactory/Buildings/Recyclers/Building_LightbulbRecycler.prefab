@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4881934791068453134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3804529654810627371}
+  - component: {fileID: 1657585181456539367}
+  - component: {fileID: 7101084957786112586}
+  - component: {fileID: 6974351339611237043}
+  m_Layer: 0
+  m_Name: Building_LightbulbRecycler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3804529654810627371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881934791068453134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6592438964508112240}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657585181456539367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881934791068453134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c947a94aa59b54383a89ec4697694a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshFilter: {fileID: 8924471045165694306}
+  meshRenderer: {fileID: 5404228296097339894}
+--- !u!114 &7101084957786112586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881934791068453134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb1643c5e8110b4286ffed2c9098de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 0
+  inAnchors:
+  - machine: {fileID: 0}
+    height: 0
+    localTilePosition: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    onlyDirectConnections: 1
+  maxReceiveDistance: 0.35
+--- !u!114 &6974351339611237043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881934791068453134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a31050155f03e458caab1d02e3df5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Lightbulb recycler
+  description: 
+  cost: 4100
+  isAlive: 1
+  receiver: {fileID: 0}
+  releaser: {fileID: 0}
+  buildingRenderer: {fileID: 1657585181456539367}
+  size: {x: 1, y: 1}
+  shift: {x: 0, y: 0}
+  mapPosition: {x: 0, y: 0}
+  metaillicBonus: -30
+  plasticBonus: -75
+  organicBonus: -100
+  paperBonus: -100
+  batteryBonus: -100
+  lightbulbBonus: 90
+--- !u!1001 &6699022197699007131
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3804529654810627371}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edf78aafb97badb4aa24aac0bb14941d,
+        type: 3}
+      propertyPath: m_Name
+      value: LightbulbRecycler
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: edf78aafb97badb4aa24aac0bb14941d, type: 3}
+--- !u!23 &5404228296097339894 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7635826562936255635, guid: edf78aafb97badb4aa24aac0bb14941d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6699022197699007131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6592438964508112240 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: edf78aafb97badb4aa24aac0bb14941d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6699022197699007131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &8924471045165694306 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: -6400281290468069383, guid: edf78aafb97badb4aa24aac0bb14941d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6699022197699007131}
+  m_PrefabAsset: {fileID: 0}

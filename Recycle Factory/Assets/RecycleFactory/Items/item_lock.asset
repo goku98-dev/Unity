@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733cf89f79b47484bad8c5d4661afc32, type: 3}
+  m_Name: item_lock
+  m_EditorClassIdentifier: 
+  name: lock
+  category: 3
+  mesh: {fileID: -2432090755550338912, guid: 4b26327ed5458f04ca8b1ca73767654f, type: 3}
+  materials:
+  - {fileID: 880774007180850119, guid: 4b26327ed5458f04ca8b1ca73767654f, type: 3}
+  - {fileID: -5605289326131794027, guid: 4b26327ed5458f04ca8b1ca73767654f, type: 3}
+  metallic: 1
+  plastic: 0
+  organic: 0
+  paper: 0
+  magnetic: 1
+  transparency: 0
+  density: 1
